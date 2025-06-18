@@ -1,6 +1,6 @@
 
 
-//Example of Var
+//************Example of Var************
 function exampleVar() {
   var name = "John";
   if (true) {
@@ -10,7 +10,7 @@ function exampleVar() {
   console.log(name); // Output: Jane
 }
 
-// Example of Let
+// **************Example of let***************
 function exampleLet() {
   let name = "John";
   if (true) {
@@ -20,7 +20,7 @@ function exampleLet() {
   console.log(name); // Output: John
 }
 
-// Example of Const
+// ***********Example of const*********
 function exampleConst() {
   const name = "John1";
   if (true) {
@@ -33,3 +33,10 @@ function exampleConst() {
 exampleVar();
 exampleLet();
 exampleConst();
+
+// ********Practicing Hoisting  with let and const***************
+console.log(y); // Error: Cannot access 'y' before initialization
+let y = 10;
+
+console.log(z); // Error: Cannot access 'z' before initialization
+const z = 15;
