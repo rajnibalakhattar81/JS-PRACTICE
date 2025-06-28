@@ -82,3 +82,23 @@ fruits.forEach(fruit => console.log(fruit));
 // apple
 // banana
 // orange
+
+//example of find()
+let numbers = [5, 12, 8, 130, 44];
+let found = numbers.find(num => num > 10);
+console.log(found);  // Output: 12
+
+//exampe of findIndex()
+let numbers1 = [5, 12, 8, 130, 44];
+let foundIndex = numbers1.findIndex(num => num > 100);
+console.log(foundIndex);  // Output: 3
+
+//exampe of reverse
+let fruits10 = ["apple", "banana", "orange"];
+fruits10.reverse();  
+console.log(fruits10);  // Output: ["orange", "banana", "apple"]
+
+//example of sort()
+let fruits11 = ["banana", "apple", "orange"];
+fruits11.sort();  
+console.log(fruits11);  // Output: ["apple", "banana", "orange"]
